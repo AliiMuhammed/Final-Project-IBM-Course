@@ -160,10 +160,9 @@ width: 80%;
     margin-bottom: 1rem;
 }
 
-.container .content{
+.projects .container .content{
     margin-left:5rem ;
     font-weight: bold;
-    width: 89%;
 }
 
 .container .content .project h3{
@@ -179,4 +178,42 @@ width: 80%;
     background-color: #9b9b9b;
     display: block;
     margin: 2rem auto;
+}
+
+/**/
+.recom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 4rem;
+    margin-bottom: 5rem;
+}
+.recom .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+.recom .container h1{
+    font-size: 3rem;
+    color: blueviolet;
+    margin-bottom: 2rem;
+}
+.recom .container .content {
+    display: flex;
+    align-items: center;
+    gap: 20px 19px ;
+    flex-wrap: wrap;
+}
+.recom .container .content .card {
+    width:30%;
+    border: 1px solid #9b9b9b;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-weight: bold;
+    font-style: italic;
 }
