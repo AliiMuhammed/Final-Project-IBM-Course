@@ -140,3 +140,43 @@ width: 80%;
     width: 25%;
 }
 
+/*projects section*/
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 4rem;
+}
+.projects .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+.projects .container h1{
+    font-size: 3rem;
+    color: blueviolet;
+    margin-bottom: 1rem;
+}
+
+.container .content{
+    margin-left:5rem ;
+    font-weight: bold;
+    width: 89%;
+}
+
+.container .content .project h3{
+    font-size: 1.5rem;
+}
+
+.container .content .project ul{
+    margin-left :4rem;
+}
+.under-line{
+    width: 80%;
+    height: 1px;
+    background-color: #9b9b9b;
+    display: block;
+    margin: 2rem auto;
+}
