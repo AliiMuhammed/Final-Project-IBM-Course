@@ -13,6 +13,9 @@ ul{
     margin: 0;
     padding: 0;
 }
+section{
+    margin-top: 5rem;
+}
 /*start nav bar*/
 
 nav{
@@ -62,4 +65,41 @@ nav .nav-links li a:hover{
     text-decoration: underline;
     font-weight: bold;
 }
-/**/
+/*About me section*/
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 4rem;
+}
+
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    
+}
+.about .container .right {
+    width:25%;
+}
+.about .container .right img {
+    width: 100%;
+}
+.about .container .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.about .container .left h1{
+    color: blueviolet;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.about .container .left p{
+    color: #9b9b9b;
+    line-height: 1.6;
+    
+}
